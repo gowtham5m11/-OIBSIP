@@ -1,0 +1,196 @@
+body{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    /* column-gap: 20px; */
+    padding: 0%;
+    background: linear-gradient(0deg, rgba(53,45,20,1) 0%, rgba(176,198,217,1) 100%, rgba(175,196,218,1) 100%);
+}
+.header-items{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+p{
+    color:#252525;
+}
+.header{
+    position: sticky;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-item{
+    padding: 20px ;
+}
+.abou-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    /* padding-top: 100px; */
+}
+
+.glass {
+    position: inherit;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 100px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 700px;
+    /* width: 1400px;
+    height: 600px; */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    z-index: -1;
+    /* padding-bottom: 20px; */
+}
+/* .abou-me:hover{
+    scale: 0.5;
+} */
+.my-image >img{
+    width: 600px;
+    position: relative;
+    top: 50px;
+}
+/* 
+.paragraph>p {
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+} */
+span{
+    text-decoration: solid;
+    color: aliceblue;
+    text-transform: uppercase;
+}.my-image>img{
+    border-radius: 20px;
+    height: 500px;
+}
+.acedamics{
+    position: inherit;
+    padding-top: 50px;
+}
+.acedamic-items{
+    position: inherit;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    z-index: 2;
+}
+ .acedemic-item1,.acedemic-item2,.acedemic-item3,.acedemic-item4{
+    width: 500px !important;
+} 
+.acedemic-item1{
+    background-color: cadetblue;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius:10%;
+}
+.acedemic-item1>img{
+    border-radius: 10%;
+}
+.acedemic-item2{
+    background-color: cadetblue;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius:10%;
+}
+.acedemic-item2>img{
+    border-radius: 10%;
+    width: 60%;
+}
+.acedemic-item3{
+    background-color: cadetblue;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    text-align: center;
+    border-radius:10%;
+}
+.acedemic-item3>img{
+    border-radius: 10%;
+    width: 60%;
+}
+.skill-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.skill-item1{
+    background-color: rgb(25, 25, 25);
+    text-align: center;
+    border-radius: 10%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    /* gap: 10px; */
+}
+.skill-item1-images>img{
+    border-radius: 10%;
+    background-color: brown;
+    gap: 100px;
+    margin-top: 20px;
+    justify-content: space-between;
+    position: inherit;
+    row-gap: 10px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    
+    scroll-snap-align: start;
+}
+.skill-item1-images{
+    width: 500px;
+    height: 510px;
+    scroll-snap-type: y mandatory;
+    white-space: nowrap;
+    overflow: scroll;
+    align-items: center;
+    gap: 10px;
+    /* border-radius: 10ch; */
+    padding-bottom: 5px;
+}
+.skill-item2{
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+}
+.skill-item2-images img{
+    width: 500px;
+}
+
+.footer{
+    background-color: slategrey;
+    height: 10%;
+    color: antiquewhite;
+    position: inherit;
+    column-gap: 200px;
+    margin-top: 20px;
+}
