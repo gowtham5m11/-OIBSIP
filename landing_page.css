@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    position: sticky;
+    top: 0%;
+    background-color: #252525;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-logo {
+    color: rgb(255, 255, 255);
+  }
+  .header-items {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .header-item {
+    background-color: #bfbfbf;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .header-item:hover {
+    background-color: #808080;
+    color: white;
+    transition-duration: 800ms;
+  }
+  span{
+    color: aqua;
+  }
+  .home-text{
+    position:absolute;
+    top: 200px;
+    left: 700px;
+    width: 690px;
+  }
+  .home{position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url("https://opticalprism.ca/wp-content/uploads/2020/02/Image-2.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  .home-text{
+    color: aliceblue;
+  }
+  .shop>p,h1{
+    text-align: center;
+  }
+  .item1{
+    width: 550px;
+    height: 410px;
+    background-color: rgb(82, 12, 174);
+    position: absolute;
+    left: 10%;
+    content: inherit;
+    border-radius: 16%;
+  }
+  .item2{
+    width: 550px;
+    height: 900px;
+    background-color: rgb(82, 12, 174);
+    position: absolute;
+    left: 55%;
+    content: inherit;
+    border-radius: 16%;
+  }
+  .item3{
+    width: 550px;
+    height: 429px;
+    background-color: rgb(82, 12, 174);
+    position: absolute;
+    left: 140px;
+    top: 1350px;
+    content: inherit;
+    border-radius: 16%;
+  }
+  .item4{
+    width: 1204px;
+    height: 429px;
+    background-color: rgb(82, 12, 174);
+    position: absolute;
+    left: 140px;
+    top: 1840px;
+    content: inherit;
+    border-radius: 70px;
+  }
+  .item1>img{
+    position: inherit;
+    left: 65px;
+    top: 40px;
+    width: 400px;
+    border-radius: 40px;
+  }
+  .item2>img{
+    position: inherit;
+    left: 65px;
+    top: 40px;
+    width: 400px;
+    height: 700px;
+    border-radius: 40px;
+  }
+  .item3>img{
+    position: inherit;
+    left: 120px;
+    top: 40px;
+    width: 300px;
+    border-radius: 40px;
+  }
+  .item4>img{
+    position: inherit;
+    left: 120px;
+    top: 40px;
+    width: 900px;
+    height: 300px;
+    border-radius: 40px;}
+  .item1>p{
+    position: inherit;
+    top: 270px;
+    left: 190px;
+    text-transform: capitalize;
+    font-size: 50px;
+  }
+  .item2>p{
+    position: inherit;
+    top: 730px;
+    left: 190px;
+    text-transform: capitalize;
+    font-size: 50px;
+  }
+  .item3>p{
+    position: inherit;
+    top: 310px;
+    left: 220px;
+    text-transform: capitalize;
+    font-size: 50px;
+  }
+  .item4>p{
+    position: inherit;
+    top: 310px;
+    left: 520px;
+    text-transform: capitalize;
+    font-size: 50px;
+  }
+  .item1:hover{
+    transition: ease-in;
+    scale: 1.05;
+    z-index: 0;
+    transition-duration: 400ms;
+    background-color: aqua;
+  }
+  .item2:hover{
+    transition: ease-in;
+    scale: 1.05;
+    z-index: 0;
+    transition-duration: 400ms;
+    background-color: aqua;
+  }
+  .item3:hover{
+    transition: ease-in;
+    scale: 1.05;
+    z-index: 0;
+    transition-duration: 400ms;
+    background-color: aqua;
+  }
+  .item4:hover{
+    transition: ease-in;
+    scale: 1.05;
+    z-index: 0;
+    transition-duration: 400ms;
+    background-color: aqua;
+  }
